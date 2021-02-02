@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 body {
@@ -31,4 +31,8 @@ body {
         ". output output ."
  ;
         justify-items: center;
+}
+
+.card-flex {
+    justify-content: space-around;
 }
