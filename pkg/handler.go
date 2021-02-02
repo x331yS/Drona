@@ -6,7 +6,7 @@ import (
 )
 
 func FaviconHandler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "assets/css/favicon.ico")
+	http.ServeFile(w, r, "assets/css/favicon1.ico")
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
