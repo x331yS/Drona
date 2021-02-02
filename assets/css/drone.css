@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .listCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container .card {
+    text-align: center;
+    margin: 20px;
+    height: auto;
+    width: 325px;
+    padding: 2em 4em;
+}
+
+.container .card h2 {
+    font-size: 2em;
+}
+
+.container .card p {
+    font-size: 1.3em;
+}
+
+.container .card img {
+    color: #000;
+    margin-bottom: 30px;
+}

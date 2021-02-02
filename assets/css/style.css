@@ -2,24 +2,19 @@ header {
     width: 100%;
     background: #398c42;
 }
-div {
-    display: flex;
-    align-items: flex-start;
-}
+
+
 .white {
-    text-decoration: none;/*Pour que le lien ne soit plus "souligné"...*/
+    /*Pour que le lien ne soit plus "souligné"...*/
+    text-decoration: none;
     color: white;
 }
 
 footer {
     width: 100%;
     background: #001D36;
-
-    position:absolute;
-
-    bottom:0;
-
-    padding-top:50px;
-
-    height:50px;
+    /* position: absolute; */
+    bottom: 0;
+    padding-top: 50px;
+    height: 50px;
 }
