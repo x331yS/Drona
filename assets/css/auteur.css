@@ -7,7 +7,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('./bg_carte.png');
+    background-image: url('../img/bg_carte.png');
 }
 
 .about {
@@ -20,11 +20,17 @@ body {
     margin-bottom: 30px;
 }
 
-.about p {
+.about .about-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.about .about-description p {
     font-size: 1.2em;
+    width: 90%;
     text-align: center;
 }
-
 .ourTeam {
     display: flex;
     justify-content: space-evenly;

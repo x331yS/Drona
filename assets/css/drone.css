@@ -7,7 +7,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('./bg_carte.png');
+    background-image: url('../img/bg_carte.png');
 }
 .container {
     height: 90vh;
