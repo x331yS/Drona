@@ -2,14 +2,6 @@ header {
     width: 100%;
     background: #398c42;
 }
-
-
-.white {
-    /*Pour que le lien ne soit plus "souligné"...*/
-    text-decoration: none;
-    color: black;
-}
-
 .footer {
     width: 100%;
     background: #001D36;
