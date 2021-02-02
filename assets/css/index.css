@@ -26,3 +26,12 @@ body
     font-style: italic;
     margin: 50px;
 }
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
